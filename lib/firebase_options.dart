@@ -47,31 +47,30 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDIrQdkBhXQlVh1o4TsjzStdk8hrYPudYc',
-    appId: '1:157841954848:web:9447f56b3572d460f1c445',
-    messagingSenderId: '157841954848',
-    projectId: 'sdfsdf-a17fc',
-    authDomain: 'sdfsdf-a17fc.firebaseapp.com',
-    storageBucket: 'sdfsdf-a17fc.appspot.com',
-    measurementId: 'G-D5DW07D714',
+    apiKey: '<YOUR API KEY>',
+    appId: '<YOUR APP ID>',
+    messagingSenderId: '<YOUR MESSAGING SENDER ID>',
+    projectId: '<YOUR PROJECT ID>',
+    storageBucket: '<YOUR STORAGE BUCKET>',
+    measurementId: '<YOUR MEASURMENT ID>',
+    authDomain: '<YOUR AUTH DOMAIN>',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBsuVQ-akoY0NRZAqllKCtEoUywabP6MlM',
-    appId: '1:157841954848:android:a49039d420704de0f1c445',
-    messagingSenderId: '157841954848',
-    projectId: 'sdfsdf-a17fc',
-    storageBucket: 'sdfsdf-a17fc.appspot.com',
+    apiKey: '<YOUR API KEY>',
+    appId: '<YOUR APP ID>',
+    messagingSenderId: '<YOUR MESSAGING SENDER ID>',
+    projectId: '<YOUR PROJECT ID>',
+    storageBucket: '<YOUR STORAGE BUCKET>',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBVwXynHQxn7bOKDHbXqZnXuPShaKCmkKU',
-    appId: '1:157841954848:ios:49201a29c27e9eddf1c445',
-    messagingSenderId: '157841954848',
-    projectId: 'sdfsdf-a17fc',
-    storageBucket: 'sdfsdf-a17fc.appspot.com',
-    androidClientId: '157841954848-0lkhcktanrg6881i0e09mt29jcf6ojs9.apps.googleusercontent.com',
-    iosClientId: '157841954848-7ivrlob9p3d3ojpd82vj75l1tud3olds.apps.googleusercontent.com',
-    iosBundleId: 'com.example.flutterfirebaseweblogin',
+    apiKey: '<YOUR API KEY>',
+    appId: '<YOUR APP ID>',
+    messagingSenderId: '<YOUR MESSAGING SENDER ID>',
+    projectId: '<YOUR PROJECT ID>',
+    storageBucket: '<YOUR STORAGE BUCKET>',
+    iosClientId: '<YOUR IOS CLIENT ID>',
+    iosBundleId: '<YOUR IOS BUNDLE ID>',
   );
 }
